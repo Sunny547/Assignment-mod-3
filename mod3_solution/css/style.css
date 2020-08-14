@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* .color-scheme {
+    color: #B1D4E0;
+    color: #2E8BC0;    ;
+    color: #0C2D48;
+    color: #145DA0;
+} */
+
+* {
+    box-sizing: border-box;
+}
