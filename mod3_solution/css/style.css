@@ -1,15 +1,148 @@
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
 body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Tamma 2', cursive, sans-serif;
+    background-color: #214ed3;
+    overflow-x: hidden;
+}
+
+
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-/* .color-scheme {
-    color: #B1D4E0;
-    color: #2E8BC0;    ;
-    color: #0C2D48;
-    color: #145DA0;
-} */
+.navbar,.navar-default{
+    background-color: #fff;
+    border: 0 !important;
+}
 
-* {
-    box-sizing: border-box;
+.navbar-brand{
+    color: #214ed3 !important;
+}
+
+h1{
+    font-size: 55px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+ 
+ div{
+    padding: 10px;
+}
+
+div.container{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.text-background{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+div.navbar-collapse {
+    padding: 0;
+    width: 100%;
+    margin: 0 !important;
+}
+
+nav{
+    width: 100%;
+}
+
+.navbar-header{
+    width: 100% !important;
+    margin: 0 !important;
+}
+
+ul{
+    width: 100%;
+    margin: 0 !important;
+}
+li {
+    font-size: 2em;
+    border-bottom: 1px solid #214ed3;
+}
+li:hover{
+    background-color: #214ed3;
+}
+.navbar-brand{
+    font-size: 40px;
+}
+
+.container-fluid{
+    padding: 0 !important;
+}
+.navbar-collapse.in {
+    overflow-y: hidden;
+}
+
+a{
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover 
+{
+     color:#00A0C6; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+article{
+    margin-bottom: 30px;
+}
+
+.art-heading{
+    font-weight: bold;
+}
+
+li a {
+    color: #214ed3 !important;
+}
+
+#nav-list{
+    margin-top: 10px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #214ed3;
+}
+
+li a:hover {
+    color: #fff !important;
+}
+
+p{
+    color: #151516;
+    font-size: 1.2em;
+    text-align: justify;
+}
+h2{
+    color: #214ed3;
+}
+@media (min-width:768px) and (max-width:991px){
+    section{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+@media (max-width:767px){
+    .text-background{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .navbar-collapse{
+        border-top: 1px solid #214ed3 !important;
+    }
 }
